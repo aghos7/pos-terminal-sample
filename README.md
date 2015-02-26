@@ -89,4 +89,4 @@ testing:
 all-in-one:
 ```mvn clean compile test```
 
-Test results will be output to: ./target/surefire-reports
+Test results will be output to: `./target/surefire-reports`
