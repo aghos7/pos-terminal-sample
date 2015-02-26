@@ -50,7 +50,7 @@ A very procedural solution to the problem in a single file that is not very flex
 It was primarily used to verify logic (prototype), may have more bugs that version 2 ;)
 
 Version 2:
-com.sample.pointofsale
+```com.sample.pointofsale
     PointOfSaleTerminal.java 
         - An interface as described in the problem
     SimplePointOfSaleTerminal.java 
@@ -64,8 +64,9 @@ com.sample.pointofsale.model
 
 com.sample.pointofsale.services 
     - Very stripped down "services" that do the actual work
-
+```
 Testing:
+```
 Path: ./src/test/java
 com.sample.pointofsale.TestAll.java 
     - A junit test suite that runs all the tests
@@ -74,18 +75,18 @@ com.sample.pointofsale.TestMiscSimplePointOfSaleTerminal
 com.sample.pointofsale.TestParameterizedPointOfSaleTerminal
     - A simple parameterized junit test that checks a few data sets against both
     KissPointOfSaleTerminal and SimplePointOfSaleTerminal
-
+```
 Command line testing 
 cleaning:
-mvn clean
+```mvn clean```
 
 compiling:
-mvn compile
+```mvn compile```
 
 testing:
-mvn test  
+```mvn test```
 
 all-in-one:
-mvn clean compile test
+```mvn clean compile test```
 
 Test results will be output to: ./target/surefire-reports
